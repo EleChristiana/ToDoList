@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  background-color: #e3e2f2;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 35%;
+  background-color: white;
+  margin: 40px auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+svg {
+  width: 35px;
+  margin-top: 9px;
+  fill: #b3b3f1;
+}
+
+.arrow {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2.5px solid #b3b3f1;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 15px;
+  color: #b3b3f1;
+  margin-top: 35px;
+}
+
+.arrow-ptag {
+  color: #b3b3f1;
+}
+
+.arrow-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.arrow-text h4 {
+  font-size: 2rem;
+  color: grey;
+}
+
+.percentage-bar {
+  width: 90%;
+  height: 20px;
+  border-radius: 8px;
+  border: 2px solid #b3b3f1;
+  margin: 0 auto;
+}
+
+.progress {
+  border-radius: 15px;
+  height: 10px;
+  padding: 1%;
+  background-color: #b3b5f0;
+}
+
+.bar {
+  width: 33%;
+}
+
+.percentage-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+  color: #b3b5f0;
+  font-size: 1.2rem;
+}
+
+hr {
+  width: 80%;
+}
+
+.text {
+  padding-left: 40px;
+}
